@@ -1,6 +1,6 @@
-# Meu Harness de Engenharia de Software com IA
+# Harness de Engenharia de Software com IA
 
-Repositório pessoal que replica meu "modo de pensar" em qualquer projeto ou exercício feito com apoio de IA. Baseado nos 4 pilares da engenharia de software moderna com IA:
+Repositório pessoal que replica um "modo de pensar" em qualquer projeto ou exercício feito com apoio de IA. Baseado nos 4 pilares da engenharia de software moderna com IA:
 
 1. **Ideação livre** (`/grill`) — bater ideia sem compromisso, antes de qualquer coisa virar spec.
 2. **Specification-first** (`/specs`) — nada de código antes de escrever o que deve ser feito.
