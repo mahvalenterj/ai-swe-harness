@@ -2,21 +2,26 @@
 
 Repositório pessoal que replica meu "modo de pensar" em qualquer projeto ou exercício feito com apoio de IA. Baseado nos 4 pilares da engenharia de software moderna com IA:
 
-1. **Specification-first** (`/specs`) — nada de código antes de escrever o que deve ser feito.
-2. **Agente com ferramentas** (`/agents`) — como a IA deve operar: o que pode executar, ler, testar.
-3. **Contexto persistente** (`/context`) — memória viva do projeto: decisões, padrões, stack.
-4. **Revisão humana no loop** (`/reviews`) — checklist para eu validar antes de aceitar qualquer output.
+1. **Ideação livre** (`/grill`) — bater ideia sem compromisso, antes de qualquer coisa virar spec.
+2. **Specification-first** (`/specs`) — nada de código antes de escrever o que deve ser feito.
+3. **Agente com ferramentas** (`/agents`) — como a IA deve operar: o que pode executar, ler, testar.
+4. **Contexto persistente** (`/context`) — memória viva do projeto: decisões, padrões, stack.
+5. **Revisão humana no loop** (`/reviews`) — checklist para eu validar antes de aceitar qualquer output.
 
 ## Como usar em um novo projeto
 1. Copie este repositório (ou use como template no GitHub: *Use this template*).
-2. Preencha `/context/architecture.md` e `/context/stack.md` primeiro.
-3. Escreva a spec do que vai construir em `/specs/` antes de pedir código para a IA.
-4. Cole `/agents/agent-instructions.md` no início de qualquer sessão com Claude/Cursor/Copilot.
-5. Ao final, passe pelo checklist em `/reviews/review-checklist.md`.
+2. Bata a ideia livremente em `/grill/grill-template.md` (copie um por projeto) até ela ficar sólida.
+3. Preencha `/context/architecture.md` e `/context/stack.md`.
+4. Formalize a spec em `/specs/` a partir do que amadureceu no grill.
+5. Cole `/agents/agent-instructions.md` no início de qualquer sessão com Claude/Cursor/Copilot.
+6. Ao final, passe pelo checklist em `/reviews/review-checklist.md`.
+7. Apague o arquivo de grill depois que a spec já tiver absorvido o que interessava.
 
 ## Estrutura
 ```
 ai-swe-harness/
+├── grill/
+│   └── grill-template.md
 ├── specs/
 │   └── spec-template.md
 ├── agents/
